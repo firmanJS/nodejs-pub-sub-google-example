@@ -1,0 +1,26 @@
+{
+  "name": "pub-sub-example",
+  "version": "1.0.0",
+  "description": "pub/sub GCP nodejs example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "gcp",
+    "pub/sub"
+  ],
+  "author": "firmanjs",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.8.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
