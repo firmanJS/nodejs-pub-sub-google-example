@@ -24,3 +24,21 @@ Read more about the client libraries for Cloud APIs, including the older
 Google APIs Client Libraries, in [Client Libraries Explained][explained].
 
 [explained]: https://cloud.google.com/apis/docs/client-libraries-explained
+
+
+## How To Use
+
+* copy env-sample in terminale
+```sh
+cp .env-sample .env
+```
+* run listerner service subscription
+```sh
+node retriveMessage
+```
+
+* run publisher service
+```sh
+node publishMessage
+```
+

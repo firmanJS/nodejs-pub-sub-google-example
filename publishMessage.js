@@ -11,7 +11,7 @@ const projectId = process.env.PROJECT_ID
 
 function main(
   topicName = process.env.TOPIC_NAME,
-  data = JSON.stringify({ foo: 'bar' }),
+  data = JSON.stringify({ nama: 'foos', alamat: 'bar' }),
 ) {
   // [START pubsub_publish_custom_attributes]
   /**
